@@ -1,7 +1,4 @@
-import React, { createContext, useState, useEffect, ReactNode, ReactElement } from "react";
-
-
-
+import { createContext, useState, useEffect, ReactNode, ReactElement } from "react";
 export type ProductType = {
   sku: string;
   name: string;
